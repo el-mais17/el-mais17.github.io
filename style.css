@@ -1,0 +1,186 @@
+/* ====== Portfolio EL Mehdi EL MAIS ====== */
+:root {
+    --green: #1abc9c;
+    --dark: #2c3e50;
+    --light: #f8f9fa;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    background-color: var(--light);
+    color: var(--dark);
+    line-height: 1.6;
+  }
+  
+  header {
+    background: var(--dark);
+    color: white;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  
+  nav {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav h1 {
+    font-weight: 600;
+    color: var(--green);
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: var(--green);
+  }
+  
+  #hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: white;
+  }
+  
+  .profile-photo {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--green);
+  }
+  
+  #hero h2 {
+    margin-top: 15px;
+    color: var(--dark);
+  }
+  
+  #hero p {
+    max-width: 600px;
+    margin: 15px auto;
+  }
+  
+  .hero-links {
+    margin-top: 20px;
+  }
+  
+  .btn, .btn-outline {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: 0.3s;
+    margin: 5px;
+    display: inline-block;
+  }
+  
+  .btn {
+    background: var(--green);
+    color: white;
+  }
+  
+  .btn:hover {
+    opacity: 0.9;
+  }
+  
+  .btn-outline {
+    border: 2px solid var(--green);
+    color: var(--green);
+  }
+  
+  .btn-outline:hover {
+    background: var(--green);
+    color: white;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 60px auto;
+  }
+  
+  .container h3 {
+    color: var(--green);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 10px;
+  }
+  
+  .skills-grid span {
+    background: var(--dark);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+  }
+  
+  .job {
+    margin-bottom: 30px;
+  }
+  
+  .job h4 {
+    color: var(--dark);
+    font-weight: 600;
+  }
+  
+  .job .date {
+    font-size: 0.9rem;
+    color: gray;
+    margin-bottom: 8px;
+  }
+  
+  ul li {
+    margin-left: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    background: var(--dark);
+    color: white;
+    padding: 15px 0;
+    margin-top: 40px;
+    font-size: 0.9rem;
+  }
+  
+  a {
+    color: var(--green);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      background: var(--dark);
+      text-align: center;
+    }
+  }
+  
