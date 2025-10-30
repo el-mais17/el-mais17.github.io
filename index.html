@@ -36,12 +36,27 @@
 
   <section id="about" class="container">
     <h3>À propos</h3>
-    <p>
-      Développeur de logiciel avec plus de 10 ans d’expérience, spécialisé en PHP/Symfony et Angular.
-      J’accompagne les entreprises dans la conception, l’optimisation et le déploiement de solutions web
-      robustes et sécurisées, tout en favorisant la qualité du code et la collaboration d’équipe.
-    </p>
+    <div class="about-content">
+      <p>
+        Avec <strong>14 ans d'expérience</strong> en développement <strong>backend</strong> et <strong>frontend</strong>, 
+        notamment en <strong>PHP</strong>, <strong>Symfony</strong> et <strong>Angular</strong>, 
+        j’ai un fort intérêt pour les <strong>défis techniques</strong> et la création de 
+        <strong>solutions performantes et optimisées</strong>.
+      </p>
+      <p>
+        Mon parcours est marqué par une passion pour <strong>l’architecture logicielle</strong> et 
+        <strong>l’amélioration continue des systèmes backend</strong>, ainsi que par une expertise solide en 
+        <strong>DevOps</strong> : <em>Docker, Jenkins, SonarQube, Ansible</em>.
+      </p>
+      <p>
+        Je recherche des projets où je peux mettre à profit mon expertise technique dans un 
+        <strong>environnement collaboratif et innovant</strong>, en travaillant étroitement avec les équipes 
+        pour développer des <strong>solutions de haute qualité</strong> et renforcer les 
+        <strong>processus de déploiement</strong>.
+      </p>
+    </div>
   </section>
+  
 
   <section id="skills" class="container">
     <h3>Compétences techniques</h3>
@@ -63,6 +78,41 @@
         <li>Mise en place de SonarQube et revue de code.</li>
         <li>Conteneurisation Docker & intégration DevOps.</li>
       </ul>
+
+      <div class="project-highlight">
+        <h5>Projet phare : <span>Netmail – Gestion centralisée des modèles de mails</span></h5>
+      
+        <p>
+          <strong>Netmail</strong> est une plateforme interne développée pour <strong>Orange</strong> afin de 
+          centraliser l’envoi et la gestion des emails transactionnels et marketing utilisés par 
+          différentes applications du groupe.
+        </p>
+      
+        <ul class="project-details">
+          <li><strong>Objectif :</strong> Fournir une solution unique et sécurisée pour la création, la gestion et 
+            l’envoi des modèles d’emails utilisés par les applications internes d’Orange.</li>
+          <li><strong>Fonctionnalités clés :</strong>
+            <ul>
+              <li>Création et édition de modèles d’emails HTML via une interface web (éditeur TinyMCE / MJML).</li>
+              <li>API REST centralisée pour l’envoi des messages depuis les différentes applications métiers.</li>
+              <li>Gestion des versions, prévisualisation et validation des templates avant mise en production.</li>
+              <li>Monitoring et traçabilité des envois via logs applicatifs et notifications techniques.</li>
+            </ul>
+          </li>
+          <li><strong>Technologies utilisées :</strong> Symfony 7, Angular, PostgreSQL, Docker, Jenkins, SonarQube, 
+            GitLab CI/CD.</li>
+          <li><strong>Rôle :</strong> Supervision technique, conception de l’architecture, intégration continue 
+            et accompagnement de l’équipe de développement dans les bonnes pratiques DevOps.</li>
+        </ul>
+      
+        <p class="summary">
+          💡 Ce projet illustre l’industrialisation de la communication inter-applications chez Orange, 
+          la mise en place d’une architecture modulaire et réutilisable, ainsi qu’une forte exigence de 
+          qualité, sécurité et performance.
+        </p>
+      </div>
+      
+
     </div>
 
     <div class="job">
@@ -72,7 +122,23 @@
         <li>Développement Symfony 4/5, PostgreSQL, Docker, Jenkins, AWS.</li>
         <li>Analyse statique du code et intégration continue.</li>
       </ul>
+    
+      <div class="project-highlight">
+        <h5>Projet phare : <span>AtoutPrisca</span></h5>
+        <p>
+          <strong>AtoutPrisca</strong> est un produit numérique développé pour <strong>GRDF</strong>,
+          destiné à accompagner les équipes commerciales dans le suivi des demandes de raccordement
+          au réseau de distribution de gaz.
+        </p>
+        <ul class="project-details">
+          <li><strong>Fonction :</strong> application de gestion interne pour les équipes commerciales.</li>
+          <li><strong>Contexte :</strong> développement réalisé dans un cadre de travail agile.</li>
+          <li><strong>Utilisation :</strong> outil interne référencé dans la documentation GRDF.</li>
+          <li><strong>Accès :</strong> application réservée aux collaborateurs GRDF (non publique).</li>
+        </ul>
+      </div>
     </div>
+    
 
     <div class="job">
       <h4>Ingénieur Études et Développement – Atos (Client : La Poste)</h4>
@@ -81,7 +147,43 @@
         <li>Développement d’applications web en Symfony 3.4 (Agile).</li>
         <li>Maintenance et correction d’anomalies applicatives.</li>
       </ul>
+    
+      <div class="project-highlight">
+        <h5>Projet : <span>Application de Gestion des Procurations de Réexpédition</span></h5>
+    
+        <div class="project-info">
+          <p><strong>Objectif :</strong> Digitalisation complète de la souscription et de la gestion des contrats de procuration de réexpédition de courrier pour les Particuliers et les Entreprises.</p>
+          
+          <p><strong>Fonctionnalités clés :</strong></p>
+          <ul class="project-details">
+            <li>1️⃣ Souscription en ligne sécurisée avec formulaires dynamiques.</li>
+            <li>2️⃣ Upload et gestion des justificatifs (identité, domicile, Kbis).</li>
+            <li>3️⃣ Activation du contrat sous 72h ou immédiate via Identité Numérique.</li>
+          </ul>
+    
+          <p><strong>Technologies clés :</strong> Front-end réactif, API Back-end Symfony, base de données sécurisée, intégration de protocoles de sécurité (HTTPS, chiffrement).</p>
+    
+          <p><strong>Défis techniques :</strong></p>
+          <ul class="project-details">
+            <li>🔒 Sécurité maximale des données sensibles (pièces d’identité).</li>
+            <li>🔗 Intégration avec le service d’Identité Numérique.</li>
+            <li>⚙️ Gestion de la validation asynchrone des documents (file d’attente/queue).</li>
+          </ul>
+    
+          <p><strong>Rôle :</strong> Développement des composants Front-end, implémentation des API de gestion des contrats, et mise en œuvre des mesures de sécurité et d’intégration.</p>
+    
+          <p class="summary">
+            💡 Ce projet illustre la maîtrise du développement d’applications critiques à forte exigence de sécurité, la gestion de workflows complexes, et l’intégration de services d’authentification tiers.
+          </p>
+        </div>
+    
+        <div class="project-diagram">
+          <img src="schema-procuration.png" alt="Schéma du processus de procuration La Poste">
+          <p class="caption">Schéma illustratif du parcours utilisateur — Application Procuration La Poste</p>
+        </div>
+      </div>
     </div>
+    
 
     <div class="job">
       <h4>Développeur Full Stack – Orbit Interactive (Client : Pages Jaunes)</h4>
